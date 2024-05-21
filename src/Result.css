@@ -1,0 +1,56 @@
+/* Result.css */
+
+.result-container {
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    
+  }
+  
+  .result-container h2 {
+    font-size: 24px;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .brief-message {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .result-summary {
+    margin-top: 20px;
+  }
+  
+  .result-summary div {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .result-summary p {
+    margin: 0;
+  }
+  
+  .result-summary p:first-child {
+    font-weight: bold;
+  }
+  
+  .score-info {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .score-info p {
+    margin: 5px 0;
+  }
+  
+  /* Add more CSS styles as needed */
+  

@@ -1,0 +1,27 @@
+[
+    {
+        "question": "What is the capital of France?",
+        "a": "Berlin",
+        "b": "London",
+        "c": "Madrid",
+        "d": "Paris",
+        "correct": "d"
+    },
+    {
+        "question": "How many continents are there in the world?",
+        "a": "5",
+        "b": "6",
+        "c": "7",
+        "d": "8",
+        "correct": "c"
+    },
+    {
+        "question": "Which gas do plants absorb from the atmosphere?",
+        "a": "Oxygen",
+        "b": "Carbon Dioxide",
+        "c": "Nitrogen",
+        "d": "Hydrogen",
+        "correct": "b"
+    }
+   
+]

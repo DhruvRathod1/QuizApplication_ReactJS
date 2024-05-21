@@ -1,0 +1,82 @@
+/* Guideline.css */
+
+/* Style for the container div */
+.center-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Full viewport height */
+}
+
+/* Style for the "Start" button */
+.start-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.start-button:hover {
+  background-color: #00cc44;
+}
+
+/* Style for the "Go to Quiz" button */
+.goto-quiz-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.goto-quiz-button:hover {
+  background-color: #00cc44;
+}
+
+/* Style for the guidelines list */
+.guidelines-list ul {
+  list-style-type: disc; /* Use bullets for the list items */
+  padding-left: 20px; /* Add some left padding for better spacing */
+}
+
+/* Style for the guidelines text */
+.guidelines-text {
+  font-size: 28px; /* Increase font size */
+  font-weight: bold; /* Make text bold */
+}
+
+/* Add a line break after guidelines */
+.guidelines-text::after {
+  white-space: pre; /* Preserve white space */
+  display: block; /* Display as block element for line break */
+  margin-top: 10px; /* Adjust the margin as needed */
+}
+
+/* Style for the exam-card */
+.exam-card {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  text-align: left;
+  max-width: 400px; /* Adjust width as needed */
+}
+
+/* Style for the custom-exam-card */
+.custom-exam-card {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  text-align: left;
+  /* Customize the width and height as needed */
+  width: 1250px;
+  height: 525px;
+}

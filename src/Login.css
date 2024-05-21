@@ -1,0 +1,110 @@
+.LoginContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  min-height: 100vh;
+  background-size: 1150px 600px; /* Set the width and height of the image */
+  background-position: center;
+}
+
+/* Updated Login.css */
+
+
+
+
+.LoginForm {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 4px 3px 12px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 400px; /* Set a specific width in pixels */
+  height: 400px; /* Set a specific height in pixels */
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 50px;
+}
+
+
+
+/* Rest of your CSS remains the same */
+
+
+/* Apply a CSS reset to ensure consistent styles across browsers */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Define a global font family */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Center content vertically and horizontally */
+.Login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Styling for the login container */
+.login-container {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px; /* Add a max-width for better responsiveness */
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+/* Styling for input fields */
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #00cc44; /* Green background color on hover */
+}
+
+p {
+  margin-top: 10px;
+  color: #007bff;
+  cursor: pointer;
+}
+
+.light-h3 {
+  font-size: 14px; /* Adjust the font size as needed */
+  font-weight: lighter; /* Use a lighter font weight */
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .login-container {
+    padding: 15px;
+  }
+
+  input,
+  button {
+    padding: 8px 15px;
+  }
+}

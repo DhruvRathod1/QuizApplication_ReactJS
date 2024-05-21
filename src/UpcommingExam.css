@@ -1,0 +1,38 @@
+/* UpcomingExam.css */
+
+/* Style for the container div */
+.upcoming-exam-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: left;
+}
+
+/* Style for the "exam card" */
+.exam-card {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  text-align: left;
+  max-width: 400px;
+  margin: 20px;
+}
+
+/* Style for the "Start Exam" button */
+.start-exam-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.start-exam-button:hover {
+  background-color: #00cc44;
+}
